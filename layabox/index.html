@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/animate.css" />
+    <link rel="stylesheet" href="./assets/css/video-js.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/video.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <!-- 导航 -->
+            <nav class="navbar navbar-inverse  navbar-fixed-top">
+                <div class="container">
+                    <!-- 移动端导航按钮 -->
+                    <div class="navbar-header wow rubberBand" data-wow-duration="1s">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                            aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand logo wow flipInX" data-wow-duration="1s" href="#"><img src="./assets/images/logo.png" /></a>
+                    </div>
+            
+                    <!-- PC导航 -->
+                    <div class="collapse navbar-collapse wow fadeIn" data-wow-duration="1s" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">首页</a></li>
+                            <li><a href="#">Laya家族</a></li>
+                            <li><a href="#">游戏</a></li>
+                            <li><a href="#">新闻动态</a></li>
+                            <li><a href="#">开发者中心</a></li>
+                            <li><a href="#">开发者社区</a></li>
+                            <li><a href="#">开放平台</a></li>
+                            <li><a href="#">关于我们</a></li>
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right language">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                    aria-expanded="false">Language <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">英文</a></li>
+                                    <li><a href="#">正文</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <div id="carousel-example-generic" class="wow flipInY banner container-fluid carousel slide text-center" data-wow-duration="1s" data-ride="carousel">
+        <!-- 图片的下标 -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- 图片部分 -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="./assets/images/banner.png" alt="...">
+            </div>
+            <div class="item">
+                <img src="./assets/images/banner.png" alt="...">
+            </div>
+            <div class="item">
+                <img src="./assets/images/banner.png" alt="...">
+            </div>
+        </div>
+    
+        <!-- 左右按钮 -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div class="layaflash">
+        <div class="container">
+            <h3 class="wow zoomInDown" data-wow-duration="1s">LayaFlash 引擎</h3>
+            <p class="wow zoomInLeft" data-wow-duration="1s" data-wow-delay="500ms">让Flash技术变成开发HTML5产品的利器</p>
+            <div class="layaflash-list col-md-8">
+                <div class="row">
+                    <div class="wow fadeInDown layaflash-item col-md-6" data-wow-duration="1s" data-wow-delay="0s">
+                        <div class="row">
+                            <div class="image col-md-3 col-sm-3 col-xs-3"></div>
+                            <div class="content col-md-9 col-sm-9 col-lg-9 col-xs-9">
+                                <h5>快速Flash产品转换</h5>
+                                <p>Flash页游\手游仅需1个人7天即可
+                                    转换为HTML5和APP游戏</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wow fadeInDown layaflash-item col-md-6" data-wow-duration="1s" data-wow-delay="200ms">
+                        <div class="row">
+                            <div class="image col-md-3 col-sm-3 col-xs-3"></div>
+                            <div class="content col-md-9 col-sm-9 col-lg-9 col-xs-9">
+                                <h5>快速Flash产品转换</h5>
+                                <p>Flash页游\手游仅需1个人7天即可
+                                    转换为HTML5和APP游戏</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wow fadeInDown layaflash-item col-md-6" data-wow-duration="1s" data-wow-delay="400ms">
+                        <div class="row">
+                            <div class="image col-md-3 col-sm-3 col-xs-3"></div>
+                            <div class="content col-md-9 col-sm-9 col-lg-9 col-xs-9">
+                                <h5>快速Flash产品转换</h5>
+                                <p>Flash页游\手游仅需1个人7天即可
+                                    转换为HTML5和APP游戏</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wow fadeInDown layaflash-item col-md-6" data-wow-duration="1s" data-wow-delay="600ms">
+                        <div class="row">
+                            <div class="image col-md-3 col-sm-3 col-xs-3"></div>
+                            <div class="content col-md-9 col-sm-9 col-lg-9 col-xs-9">
+                                <h5>快速Flash产品转换</h5>
+                                <p>Flash页游\手游仅需1个人7天即可
+                                    转换为HTML5和APP游戏</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="layaair">
+        <div class="container">
+            <div class="row">
+                <div class="layaair-img col-md-4 col-lg-4 col-sm-4 col-xs-12">
+                    <div class="image wow bounceIn" data-wow-duration="1s">
+                        <img src="./assets/images/air-bar.jpg" />
+                    </div>
+                </div>
+                <div class="layaair-box col-md-7 col-md-offset-1 col-sm-8 col-xs-12">
+                    <h2 class="wow jackInTheBox" data-wow-duration="1s">Layabox 优势</h2>
+                    <div class="layaair-list"> 
+                        <ul>
+                            <li class="wow flipInX" data-wow-duration="1s">
+                                <div class="ad01 ad pull-left"></div>
+                                <div class="ad-desc">快速上手，Flash程序员3小时掌握HTML5开发</div>
+                            </li>
+                            <li class="wow flipInX" data-wow-duration="1s">
+                                <div class="ad02 ad pull-left"></div>
+                                <div class="ad-desc">快速上手，Flash程序员3小时掌握HTML5开发</div>
+                            </li>
+                            <li class="wow flipInX" data-wow-duration="1s">
+                                <div class="ad03 ad pull-left"></div>
+                                <div class="ad-desc">快速上手，Flash程序员3小时掌握HTML5开发</div>
+                            </li>
+                            <li class="wow flipInX" data-wow-duration="1s">
+                                <div class="ad04 ad pull-left"></div>
+                                <div class="ad-desc">快速上手，Flash程序员3小时掌握HTML5开发</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product">
+        <div class="container">
+            <div class="row">
+                <div class="wow rubberBand col-md-12 text-center product-title" data-wow-duration="1s">
+                    <h1>
+                        Layabox产品家族
+                    </h1>
+                </div>
+                <div data-wow-duration="1s" data-wow-delay="0ms" class="wow bounceInDown product-item col-md-6 col-sm-6 col-xs-6 col-lg-6">
+                    <div class="row">
+                        <div class="pro-icon pro-icon001 col-md-4 col-sm-4 col-xs-12"></div>
+                        <div class="pro-desc col-md-8 col-sm-8 col-xs-12">
+                            <h4>LayaAir</h4>
+                            <p>核心库仅100K左右的新一代HTML5引擎，支持AS3\TS\JS语言开发，支持2D\3D，非运行器模式下性能媲美APP。</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-wow-duration="1s" data-wow-delay="200ms" class="wow bounceInDown product-item col-md-6 col-sm-6 col-xs-6 col-lg-6">
+                    <div class="row">
+                        <div class="pro-icon pro-icon001 col-md-4 col-sm-4 col-xs-12"></div>
+                        <div class="pro-desc col-md-8 col-sm-8 col-xs-12">
+                            <h4>LayaAir</h4>
+                            <p>核心库仅100K左右的新一代HTML5引擎，支持AS3\TS\JS语言开发，支持2D\3D，非运行器模式下性能媲美APP。</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-wow-duration="1s" data-wow-delay="400ms" class="wow bounceInDown product-item col-md-6 col-sm-6 col-xs-6 col-lg-6">
+                    <div class="row">
+                        <div class="pro-icon pro-icon001 col-md-4 col-sm-4 col-xs-12"></div>
+                        <div class="pro-desc col-md-8 col-sm-8 col-xs-12">
+                            <h4>LayaAir</h4>
+                            <p>核心库仅100K左右的新一代HTML5引擎，支持AS3\TS\JS语言开发，支持2D\3D，非运行器模式下性能媲美APP。</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-wow-duration="1s" data-wow-delay="600ms" class="wow bounceInDown product-item col-md-6 col-sm-6 col-xs-6 col-lg-6">
+                    <div class="row">
+                        <div class="pro-icon pro-icon001 col-md-4 col-sm-4 col-xs-12"></div>
+                        <div class="pro-desc col-md-8 col-sm-8 col-xs-12">
+                            <h4>LayaAir</h4>
+                            <p>核心库仅100K左右的新一代HTML5引擎，支持AS3\TS\JS语言开发，支持2D\3D，非运行器模式下性能媲美APP。</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-wow-duration="1s" data-wow-delay="800ms" class="wow bounceInDown product-item col-md-6 col-sm-6 col-xs-6 col-lg-6">
+                    <div class="row">
+                        <div class="pro-icon pro-icon001 col-md-4 col-sm-4 col-xs-12"></div>
+                        <div class="pro-desc col-md-8 col-sm-8 col-xs-12">
+                            <h4>LayaAir</h4>
+                            <p>核心库仅100K左右的新一代HTML5引擎，支持AS3\TS\JS语言开发，支持2D\3D，非运行器模式下性能媲美APP。</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-wow-duration="1s" data-wow-delay="1000ms" class="wow bounceInDown product-item col-md-6 col-sm-6 col-xs-6 col-lg-6">
+                    <div class="row">
+                        <div class="pro-icon pro-icon001 col-md-4 col-sm-4 col-xs-12"></div>
+                        <div class="pro-desc col-md-8 col-sm-8 col-xs-12">
+                            <h4>LayaAir</h4>
+                            <p>核心库仅100K左右的新一代HTML5引擎，支持AS3\TS\JS语言开发，支持2D\3D，非运行器模式下性能媲美APP。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="game">
+        <div class="container">
+            <div class="game-header row">
+                <div class="game-title col-md-10 col-sm-10 col-xs-10">
+                    <h1>采用Layabox引擎的精彩游戏</h1>
+                </div>
+                <div class="game-more col-md-2 col-sm-2 col-xs-2">
+                    <a href="#">更多</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-sm-5">
+                    <div class="laya-video wow fadeInDown animated delay-1 animated" style="visibility: visible; animation-name: fadeInDown;">
+                        <video id="laya_yf_html5_api" class="video-js" controls preload="auto" height="264" poster="./assets/images/shipin.jpg"
+                            data-setup='{}'>
+                            <source src="./assets/video/layabox_product.mp4" type="video/mp4">
+                            <p class="vjs-no-js">
+                                To view this video please enable JavaScript, and consider upgrading to a web browser
+                                that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                            </p>
+                        </video>
+                    </div>
+                </div>
+                <div class="game-list col-md-7 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="game-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="game-content">
+                                <img class="img-responsive img-hover" src="./assets/images/20150917095903153.png" alt="" />
+                                <p class="text-center">猎刃2</p>
+                            </div>
+                        </div>
+                        <div class="game-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="game-content">
+                                <img class="img-responsive img-hover" src="./assets/images/20150917095903153.png" alt="" />
+                                <p class="text-center">猎刃2</p>
+                            </div>
+                        </div>
+                        <div class="game-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="game-content">
+                                <img class="img-responsive img-hover" src="./assets/images/20150917095903153.png" alt="" />
+                                <p class="text-center">猎刃2</p>
+                            </div>
+                        </div>
+                        <div class="game-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="game-content">
+                                <img class="img-responsive img-hover" src="./assets/images/20150917095903153.png" alt="" />
+                                <p class="text-center">猎刃2</p>
+                            </div>
+                        </div>
+                        <div class="game-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="game-content">
+                                <img class="img-responsive img-hover" src="./assets/images/20150917095903153.png" alt="" />
+                                <p class="text-center">猎刃2</p>
+                            </div>
+                        </div>
+                        <div class="game-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="game-content">
+                                <img class="img-responsive img-hover" src="./assets/images/20150917095903153.png" alt="" />
+                                <p class="text-center">猎刃2</p>
+                            </div>
+                        </div>
+                        <div class="game-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="game-content">
+                                <img class="img-responsive img-hover" src="./assets/images/20150917095903153.png" alt="" />
+                                <p class="text-center">猎刃2</p>
+                            </div>
+                        </div>
+                        <div class="game-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="game-content">
+                                <img class="img-responsive img-hover" src="./assets/images/20150917095903153.png" alt="" />
+                                <p class="text-center">猎刃2</p>
+                            </div>
+                        </div>
+                        <div class="game-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="game-content">
+                                <img class="img-responsive img-hover" src="./assets/images/20150917095903153.png" alt="" />
+                                <p class="text-center">猎刃2</p>
+                            </div>
+                        </div>
+                        <div class="game-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="game-content">
+                                <img class="img-responsive img-hover" src="./assets/images/20150917095903153.png" alt="" />
+                                <p class="text-center">猎刃2</p>
+                            </div>
+                        </div>
+                        <div class="game-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="game-content">
+                                <img class="img-responsive img-hover" src="./assets/images/20150917095903153.png" alt="" />
+                                <p class="text-center">猎刃2</p>
+                            </div>
+                        </div>
+                        <div class="game-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="game-content">
+                                <img class="img-responsive img-hover" src="./assets/images/20150917095903153.png" alt="" />
+                                <p class="text-center">猎刃2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="links">
+        <div class="container">
+            <div class="row">
+                <div class="link-title col-md-12 col-sm-12 col-xs-12">
+                    <h2>合作渠道<span class="small">(排序不分先后)</span></h2>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="link-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="img">
+                                <img class="img-hover img-responsive" src="./assets/images/1447666760298019.jpg" />
+                            </div>
+                        </div>
+                        <div class="link-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="img">
+                                <img class="img-hover img-responsive" src="./assets/images/1447666760298019.jpg" />
+                            </div>
+                        </div>
+                        <div class="link-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="img">
+                                <img class="img-hover img-responsive" src="./assets/images/1447666760298019.jpg" />
+                            </div>
+                        </div>
+                        <div class="link-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="img">
+                                <img class="img-hover img-responsive" src="./assets/images/1447666760298019.jpg" />
+                            </div>
+                        </div>
+                        <div class="link-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="img">
+                                <img class="img-hover img-responsive" src="./assets/images/1447666760298019.jpg" />
+                            </div>
+                        </div>
+                        <div class="link-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="img">
+                                <img class="img-hover img-responsive" src="./assets/images/1447666760298019.jpg" />
+                            </div>
+                        </div>
+                        <div class="link-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="img">
+                                <img class="img-hover img-responsive" src="./assets/images/1447666760298019.jpg" />
+                            </div>
+                        </div>
+                        <div class="link-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="img">
+                                <img class="img-hover img-responsive" src="./assets/images/1447666760298019.jpg" />
+                            </div>
+                        </div>
+                        <div class="link-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="img">
+                                <img class="img-hover img-responsive" src="./assets/images/1447666760298019.jpg" />
+                            </div>
+                        </div>
+                        <div class="link-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="img">
+                                <img class="img-hover img-responsive" src="./assets/images/1447666760298019.jpg" />
+                            </div>
+                        </div>
+                        <div class="link-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="img">
+                                <img class="img-hover img-responsive" src="./assets/images/1447666760298019.jpg" />
+                            </div>
+                        </div>
+                        <div class="link-item col-md-2 col-sm-3 col-xs-4">
+                            <div class="img">
+                                <img class="img-hover img-responsive" src="./assets/images/1447666760298019.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-9 col-xs-12 wow fadeInLeft" data-wow-duration="1s">
+                    <div class="contact clearfix">
+                        <ul class="clearfix">
+                            <li><a href="#">公司简介</a></li>
+                            <li><a href="#">公司简介</a></li>
+                            <li><a href="#">公司简介</a></li>
+                        </ul>
+                    </div>
+                    <div class="copyright">
+                        <p>
+                            All Copyright Reserved by Layabox Inc. 京ICP备15008163号-1
+                            <a href="http://www.51.la/?17805416" target="_blank" title="51.La 网站流量统计系统">网站统计</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-list col-md-3 col-sm-3 col-xs-12 wow fadeInUp" data-wow-duration="1s">
+                    <div class="footer-item col-md-4 col-sm-4 col-xs-4 pull-left"></div>
+                    <div class="footer-item col-md-4 col-sm-4 col-xs-4 pull-left"></div>
+                    <div class="footer-item col-md-4 col-sm-4 col-xs-4 pull-left"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    //初始化懒加载
+    new WOW().init();
+
+    //轮播图部分
+    $('.carousel').carousel();
+</script>
